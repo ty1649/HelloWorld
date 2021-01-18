@@ -1,0 +1,17 @@
+public class HelloWorld {
+    public static void main(String[] args) {
+        String hello1 = "Hope you had a great day!";
+        String hello2 = "Wish you good luck in your journey throughout life!";
+        String hello3 = "Why do you despair? I care for you!";
+        String hello4 = "You're perfect the way you are!";
+        String hello5 = "Everyone cares about you :)";
+        
+        for(int i = 0; i < 50; i++) {
+            System.out.println(hello1);
+            System.out.println(hello2);
+            System.out.println(hello3);
+            System.out.println(hello4);
+            System.out.println(hello5);
+        }
+    }
+}
